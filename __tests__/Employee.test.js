@@ -4,8 +4,8 @@ test('creating a new employee', () => {
     const employee = new Employee('Biggus', 8, 'dickus@gmail.com');
 
     expect(employee.name).toEqual('Biggus');
-    expect(employee.id).toEqual('8');
-    expect(employee.email).toEqual('biggus@gmail.com');
+    expect(employee.id).toEqual(8);
+    expect(employee.email).toEqual('dickus@gmail.com');
 });
 
 test('gets the name of an employee', () => {
